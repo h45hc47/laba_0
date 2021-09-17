@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 
-void get_integer(const char* msg, int nums[3]) {
+void get_numbers(const char* msg, int nums[3]) {
     char answer[256];
     int a, b, c;
 
@@ -28,7 +28,7 @@ int main(void) {
     const char* msg = "Enter three numbers: ";
     int nums[3];
 
-    get_integer(msg, nums);
+    get_numbers(msg, nums);
 
     printf("Second number - first number = %d", nums[1] - nums[0]);
 
